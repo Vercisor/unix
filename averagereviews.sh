@@ -1,7 +1,6 @@
 #!/bin/bash
-parent_path=$( cd "$(dirname "${BASH_SOURCE[-1]}")" ; pwd -P )
-dir= cd "$parent_path/$1"
-for file in "$dir"*.dat
+cd $1
+for file in *.dat
 do
 	hotelName=${file%.*}
 	hotelName=${hotelName##*/}
