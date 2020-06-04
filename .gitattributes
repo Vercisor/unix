@@ -1,0 +1,2 @@
+*.gitattributes linguist-language=gitattributes
+*.tex linguist-language=Shell
